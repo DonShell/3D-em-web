@@ -1,0 +1,55 @@
+#ponto1
+{
+	position: fixed;
+	height: 100%;
+	width:100%;
+	top: 10px;
+	perspective-origin: 50% 60%;
+	transform-style:preserve-3d;
+	transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.ceu_from
+{
+	transform: translateZ(0px) translateY(-500px) rotateX(-90deg) rotateY(0deg) rotateZ(90deg);
+	background-image:url('textura/estrelas.jpg');
+	height: 1080px; 
+	width: 1080px;
+	position: fixed;
+	top: 0px;
+	left: calc(50% - 540px);
+	/*-webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(0deg); 
+	 height: 100%; 
+	width: 100%;*/
+
+}
+
+.chao
+{
+	position: fixed;
+	font-size: 500;
+	border-radius: 100%;
+	
+	/*-webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(0deg); */
+	height: 1000px; 
+	width: 1000px;
+
+    	bottom: -55%;
+	transform: translateX(-100px);
+	transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+		background-image:url('textura/grama.jpg');
+	
+}
+#visao
+{
+	
+	perspective: 338px;
+	position: fixed;
+	height: 100%;
+	width:100%;
+}
+body
+{
+	background:#000000;
+}
+
